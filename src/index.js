@@ -11,7 +11,9 @@ app.use(express.json());
 // const users = [];
 
 function checksExistsUserAccount(request, response, next) {
-  // Complete aqui
+  if(true){
+    return
+  }
 }
 
 app.post('/users', (request, response) => {
